@@ -55,8 +55,8 @@ jobs:
         environment:
           BUILD_TARGET: StandaloneLinux64
         command: "./ci/build.sh"
-    - store_artifacts:
-        path: "./Builds/"
+    # - store_artifacts:
+    #     path: "./Builds/"
 workflows:
   version: 2
   test_and_build:
